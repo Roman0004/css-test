@@ -1,0 +1,105 @@
+.title{
+  background-image:url("../images/firstview.jpg");
+  height: 500px;
+}
+
+.title-text{
+  color: rgb(248, 245, 239);
+  font-size: 50px;
+  margin: 0 auto;
+  display: block;
+  padding-top: 210px;
+  width: 350px;
+}
+
+.about{
+  text-align: center;
+  font-size: 40px;
+  padding: 50px;
+}
+
+.text{
+  text-align: center;
+  padding: 10px;
+}
+
+
+.blog{
+  text-align: center;
+  font-size: 40px;
+  padding: 50px;
+  font-weight: bold;
+}
+
+.wrapper{
+  display: flex;
+  justify-content: space-between;
+}
+
+.card{
+  margin: 10px;
+  text-align: center;
+}
+
+img{
+  width: 300px;
+}
+
+.card:nth-child(1){
+  margin-left: 50px;
+}
+
+.card:nth-child(3){
+  margin-right: 50px;
+}
+
+.request{
+  font-size: 40px;
+  text-align: center;
+  font-weight: bold;
+  padding: 50px;
+}
+
+.form-item{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-item-label{
+  font-size: 14px;
+  font-weight: bold;
+  padding-right: 300px;
+  margin: 10px;
+  
+}
+
+
+.form-item-input{
+  width: 400px;
+}
+
+.form-submit{
+  margin: 20px auto;
+  width:200px;
+  display: block;
+
+}
+
+.form-btn{
+  width: 300px;
+  height: 50px;
+  background-color: silver;
+  border: none;
+  padding: 0 20px;
+
+}
+
+.form-btn-delate{
+  width: 300px;
+  height: 50px;
+  background-color: aquamarine;
+  border: none;
+  padding: 0 20px
+}
+
